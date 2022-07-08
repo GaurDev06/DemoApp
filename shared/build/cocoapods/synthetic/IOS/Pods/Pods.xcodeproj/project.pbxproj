@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E57795E3793A5B4B3FCB20B96C38D2AA /* LibTorch-Lite */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 49B45E12905593CF3F5392688CB741CB /* Build configuration list for PBXAggregateTarget "LibTorch-Lite" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "LibTorch-Lite";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		04A60250F65F50829D9F90783E72DD57 /* ModelOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AB4B45E5C2F3DA1F9A297D62D505CE3 /* ModelOutput.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0C29E61ECC8237A09DF94B15BA5C78CF /* TorchModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EB93A2264425BE07DAAF5C3E309F93F /* TorchModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		13E9EF764B3FDE14910115BD0FB88398 /* Tensor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2C44A911C0195ECA211351C1BAE7266E /* Tensor.mm */; };
+		18609AD4FFDC4FC6CBD9AE54AED786D9 /* Tensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EE86DF586B0C6BB3546728B2BBB3EDB /* Tensor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		28F35E6D6B383D4872B529C177CF95E0 /* LibTorchWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 44A09CF2816C332D079328DA75ACDF21 /* LibTorchWrapper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		514BDD269175B9BCEC54B2C48EE52905 /* ModelOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F314BEBCCB8DC50625D4DB1BEB07C1 /* ModelOutput.m */; };
+		A9CB08D6A785E4782220BABD01202E12 /* PLMLibTorchWrapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C54B4BAC5BA5CCE904774AE1235F7C /* PLMLibTorchWrapper-dummy.m */; };
+		E75A65C8D46A2BBF29BE729EEE218CB4 /* Pods-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1420D6E5FA0FE4C6B2DD6C15C1702F /* Pods-ios-dummy.m */; };
+		ECD382FFAEC8D4E1C6DC392466D9E561 /* TorchModule.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5BBC11DF70E880306947C390407335DF /* TorchModule.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19FF46DC25438C731582E7E21B342E42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E57795E3793A5B4B3FCB20B96C38D2AA;
+			remoteInfo = "LibTorch-Lite";
+		};
+		6A94980727D3A2ACCB75753FC49204A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88080F4CE87091260A5105DDC5FF2313;
+			remoteInfo = PLMLibTorchWrapper;
+		};
+		F39CEBF3EE710488A6CCBE7A31821E05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E57795E3793A5B4B3FCB20B96C38D2AA;
+			remoteInfo = "LibTorch-Lite";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13DA09E72AB3CED35642A9BD5C2C2E95 /* libpytorch_qnnpack.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libpytorch_qnnpack.a; path = install/lib/libpytorch_qnnpack.a; sourceTree = "<group>"; };
+		1A9E4727C13BB7434D1AA457F57C8D1B /* PLMLibTorchWrapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PLMLibTorchWrapper.debug.xcconfig; sourceTree = "<group>"; };
+		2179D169D08BB168F525D2E2330756E6 /* libpthreadpool.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libpthreadpool.a; path = install/lib/libpthreadpool.a; sourceTree = "<group>"; };
+		2C44A911C0195ECA211351C1BAE7266E /* Tensor.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = Tensor.mm; path = ios/LibTorchWrapper/LibTorchWrapper/Tensor.mm; sourceTree = "<group>"; };
+		3593F16F6A434F26F67CF3CCCDC3EC11 /* Pods-ios-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ios-acknowledgements.plist"; sourceTree = "<group>"; };
+		36920A0C5D7377CBE464D465ED677AB7 /* LibTorch-Lite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LibTorch-Lite.release.xcconfig"; sourceTree = "<group>"; };
+		3A99FD97E895CDC7C6061146ABC7E409 /* Pods-ios-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ios-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3EB93A2264425BE07DAAF5C3E309F93F /* TorchModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TorchModule.h; path = ios/LibTorchWrapper/LibTorchWrapper/TorchModule.h; sourceTree = "<group>"; };
+		44A09CF2816C332D079328DA75ACDF21 /* LibTorchWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LibTorchWrapper.h; path = ios/LibTorchWrapper/LibTorchWrapper/LibTorchWrapper.h; sourceTree = "<group>"; };
+		512745B3FA3A2710FC90C9B514395934 /* LibTorch-Lite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LibTorch-Lite.h"; path = "src/LibTorch-Lite.h"; sourceTree = "<group>"; };
+		585A8717079107B5A83A2355E919E872 /* LibTorch-Lite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LibTorch-Lite.debug.xcconfig"; sourceTree = "<group>"; };
+		5AB4B45E5C2F3DA1F9A297D62D505CE3 /* ModelOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModelOutput.h; path = ios/LibTorchWrapper/LibTorchWrapper/ModelOutput.h; sourceTree = "<group>"; };
+		5BBC11DF70E880306947C390407335DF /* TorchModule.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = TorchModule.mm; path = ios/LibTorchWrapper/LibTorchWrapper/TorchModule.mm; sourceTree = "<group>"; };
+		5EE86DF586B0C6BB3546728B2BBB3EDB /* Tensor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Tensor.h; path = ios/LibTorchWrapper/LibTorchWrapper/Tensor.h; sourceTree = "<group>"; };
+		647BD3B92EF45E36BE44F5FB13D1E09F /* libc10.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libc10.a; path = install/lib/libc10.a; sourceTree = "<group>"; };
+		6E15AB2BAC2D5F3218ADE4CB1AF13E62 /* libtorch_cpu.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libtorch_cpu.a; path = install/lib/libtorch_cpu.a; sourceTree = "<group>"; };
+		752F19E1B3387D8DF441487F691DF729 /* libXNNPACK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libXNNPACK.a; path = install/lib/libXNNPACK.a; sourceTree = "<group>"; };
+		770E5F37951E5E8A9C0F210C72C350B9 /* Pods-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		80E7E71C199267B3172A2503BFF9D72B /* PLMLibTorchWrapper */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = PLMLibTorchWrapper; path = libPLMLibTorchWrapper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AEF85E353C823B855DED74805D87A67 /* libeigen_blas.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libeigen_blas.a; path = install/lib/libeigen_blas.a; sourceTree = "<group>"; };
+		99C54B4BAC5BA5CCE904774AE1235F7C /* PLMLibTorchWrapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PLMLibTorchWrapper-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3F314BEBCCB8DC50625D4DB1BEB07C1 /* ModelOutput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModelOutput.m; path = ios/LibTorchWrapper/LibTorchWrapper/ModelOutput.m; sourceTree = "<group>"; };
+		A52BFF59B773C7E75F953FF0565F719C /* PLMLibTorchWrapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PLMLibTorchWrapper-prefix.pch"; sourceTree = "<group>"; };
+		AA5AE1AC0D82244578DB6EABAF2F1026 /* Pods-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios.release.xcconfig"; sourceTree = "<group>"; };
+		C29B59524A16A51D20BBA3221C6DB40D /* PLMLibTorchWrapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PLMLibTorchWrapper.release.xcconfig; sourceTree = "<group>"; };
+		C442E0B441368C84A0F36A49A283A913 /* libclog.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libclog.a; path = install/lib/libclog.a; sourceTree = "<group>"; };
+		C88F8F46D08DE241B61E716EBC529874 /* libcpuinfo.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcpuinfo.a; path = install/lib/libcpuinfo.a; sourceTree = "<group>"; };
+		C993CC9BA516F782F0F5E8BDC900EC1D /* libtorch.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libtorch.a; path = install/lib/libtorch.a; sourceTree = "<group>"; };
+		CF1420D6E5FA0FE4C6B2DD6C15C1702F /* Pods-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ios-dummy.m"; sourceTree = "<group>"; };
+		DB84425C5097649DB7039BCDFCA4DB6C /* Pods-ios */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-ios"; path = "libPods-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05B4AF3DDD59CF44326978AFF114A78D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52319A3CDD79488FF2D464C5FC36F30D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		249054C7347DED31B892FC1DF7AA4978 /* PLMLibTorchWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				44A09CF2816C332D079328DA75ACDF21 /* LibTorchWrapper.h */,
+				5AB4B45E5C2F3DA1F9A297D62D505CE3 /* ModelOutput.h */,
+				A3F314BEBCCB8DC50625D4DB1BEB07C1 /* ModelOutput.m */,
+				5EE86DF586B0C6BB3546728B2BBB3EDB /* Tensor.h */,
+				2C44A911C0195ECA211351C1BAE7266E /* Tensor.mm */,
+				3EB93A2264425BE07DAAF5C3E309F93F /* TorchModule.h */,
+				5BBC11DF70E880306947C390407335DF /* TorchModule.mm */,
+				55176C2578FBFDED18F6DEBF3467A7E5 /* Support Files */,
+			);
+			name = PLMLibTorchWrapper;
+			path = PLMLibTorchWrapper;
+			sourceTree = "<group>";
+		};
+		45ED018CEB5163C69BD13B4AC48170FB /* Torch */ = {
+			isa = PBXGroup;
+			children = (
+				CBBF431E412658473D30E587629EEAFB /* Frameworks */,
+			);
+			name = Torch;
+			sourceTree = "<group>";
+		};
+		52665DEA59A35457755F74E0C298C3BD /* Pods-ios */ = {
+			isa = PBXGroup;
+			children = (
+				3A99FD97E895CDC7C6061146ABC7E409 /* Pods-ios-acknowledgements.markdown */,
+				3593F16F6A434F26F67CF3CCCDC3EC11 /* Pods-ios-acknowledgements.plist */,
+				CF1420D6E5FA0FE4C6B2DD6C15C1702F /* Pods-ios-dummy.m */,
+				770E5F37951E5E8A9C0F210C72C350B9 /* Pods-ios.debug.xcconfig */,
+				AA5AE1AC0D82244578DB6EABAF2F1026 /* Pods-ios.release.xcconfig */,
+			);
+			name = "Pods-ios";
+			path = "Target Support Files/Pods-ios";
+			sourceTree = "<group>";
+		};
+		55176C2578FBFDED18F6DEBF3467A7E5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				99C54B4BAC5BA5CCE904774AE1235F7C /* PLMLibTorchWrapper-dummy.m */,
+				A52BFF59B773C7E75F953FF0565F719C /* PLMLibTorchWrapper-prefix.pch */,
+				1A9E4727C13BB7434D1AA457F57C8D1B /* PLMLibTorchWrapper.debug.xcconfig */,
+				C29B59524A16A51D20BBA3221C6DB40D /* PLMLibTorchWrapper.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PLMLibTorchWrapper";
+			sourceTree = "<group>";
+		};
+		76113771CD1E9DCAADCDCC8DFCBF8F3B /* LibTorch-Lite */ = {
+			isa = PBXGroup;
+			children = (
+				ECF11FC9AA03F92695081237E9709AE2 /* Core */,
+				821CAAA0DDE885261002299D4F9FA912 /* Support Files */,
+				45ED018CEB5163C69BD13B4AC48170FB /* Torch */,
+			);
+			name = "LibTorch-Lite";
+			path = "LibTorch-Lite";
+			sourceTree = "<group>";
+		};
+		821CAAA0DDE885261002299D4F9FA912 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				585A8717079107B5A83A2355E919E872 /* LibTorch-Lite.debug.xcconfig */,
+				36920A0C5D7377CBE464D465ED677AB7 /* LibTorch-Lite.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LibTorch-Lite";
+			sourceTree = "<group>";
+		};
+		BCA033A1B7A00982A9777BC9D4B5B370 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				52665DEA59A35457755F74E0C298C3BD /* Pods-ios */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CBBF431E412658473D30E587629EEAFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				647BD3B92EF45E36BE44F5FB13D1E09F /* libc10.a */,
+				C442E0B441368C84A0F36A49A283A913 /* libclog.a */,
+				C88F8F46D08DE241B61E716EBC529874 /* libcpuinfo.a */,
+				8AEF85E353C823B855DED74805D87A67 /* libeigen_blas.a */,
+				2179D169D08BB168F525D2E2330756E6 /* libpthreadpool.a */,
+				13DA09E72AB3CED35642A9BD5C2C2E95 /* libpytorch_qnnpack.a */,
+				C993CC9BA516F782F0F5E8BDC900EC1D /* libtorch.a */,
+				6E15AB2BAC2D5F3218ADE4CB1AF13E62 /* libtorch_cpu.a */,
+				752F19E1B3387D8DF441487F691DF729 /* libXNNPACK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				DC368323AE9A89EB3F76CC8DE7673F55 /* Pods */,
+				D49FD124995C7467F4121F592FEB61CF /* Products */,
+				BCA033A1B7A00982A9777BC9D4B5B370 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D49FD124995C7467F4121F592FEB61CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80E7E71C199267B3172A2503BFF9D72B /* PLMLibTorchWrapper */,
+				DB84425C5097649DB7039BCDFCA4DB6C /* Pods-ios */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC368323AE9A89EB3F76CC8DE7673F55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76113771CD1E9DCAADCDCC8DFCBF8F3B /* LibTorch-Lite */,
+				249054C7347DED31B892FC1DF7AA4978 /* PLMLibTorchWrapper */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ECF11FC9AA03F92695081237E9709AE2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				512745B3FA3A2710FC90C9B514395934 /* LibTorch-Lite.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		921F2C363A2A02AC86A3EFB07C28F818 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F35E6D6B383D4872B529C177CF95E0 /* LibTorchWrapper.h in Headers */,
+				04A60250F65F50829D9F90783E72DD57 /* ModelOutput.h in Headers */,
+				18609AD4FFDC4FC6CBD9AE54AED786D9 /* Tensor.h in Headers */,
+				0C29E61ECC8237A09DF94B15BA5C78CF /* TorchModule.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC8E1759D0246B4EF7A5A100A68C2BF5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		88080F4CE87091260A5105DDC5FF2313 /* PLMLibTorchWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AA6EEEDD357FA96A40B953EF88C736B /* Build configuration list for PBXNativeTarget "PLMLibTorchWrapper" */;
+			buildPhases = (
+				921F2C363A2A02AC86A3EFB07C28F818 /* Headers */,
+				CD2BECB42CDFD65047264ED748BC4D12 /* Sources */,
+				52319A3CDD79488FF2D464C5FC36F30D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84A73AB26B66E85DF72B43A99AC2BC56 /* PBXTargetDependency */,
+			);
+			name = PLMLibTorchWrapper;
+			productName = PLMLibTorchWrapper;
+			productReference = 80E7E71C199267B3172A2503BFF9D72B /* PLMLibTorchWrapper */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CB5AA7A4FA94F4765AE579D6F4491956 /* Pods-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02DC280AA7846CA8111D5F4EB2ADF47D /* Build configuration list for PBXNativeTarget "Pods-ios" */;
+			buildPhases = (
+				CC8E1759D0246B4EF7A5A100A68C2BF5 /* Headers */,
+				C334E97A507A091A5688EAEA2115724E /* Sources */,
+				05B4AF3DDD59CF44326978AFF114A78D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				042F66F29F36A5774B75C5161E487C11 /* PBXTargetDependency */,
+				B751AD68A1A9BB596901DB69B74F136E /* PBXTargetDependency */,
+			);
+			name = "Pods-ios";
+			productName = "Pods-ios";
+			productReference = DB84425C5097649DB7039BCDFCA4DB6C /* Pods-ios */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D49FD124995C7467F4121F592FEB61CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E57795E3793A5B4B3FCB20B96C38D2AA /* LibTorch-Lite */,
+				88080F4CE87091260A5105DDC5FF2313 /* PLMLibTorchWrapper */,
+				CB5AA7A4FA94F4765AE579D6F4491956 /* Pods-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C334E97A507A091A5688EAEA2115724E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75A65C8D46A2BBF29BE729EEE218CB4 /* Pods-ios-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2BECB42CDFD65047264ED748BC4D12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				514BDD269175B9BCEC54B2C48EE52905 /* ModelOutput.m in Sources */,
+				A9CB08D6A785E4782220BABD01202E12 /* PLMLibTorchWrapper-dummy.m in Sources */,
+				13E9EF764B3FDE14910115BD0FB88398 /* Tensor.mm in Sources */,
+				ECD382FFAEC8D4E1C6DC392466D9E561 /* TorchModule.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		042F66F29F36A5774B75C5161E487C11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LibTorch-Lite";
+			target = E57795E3793A5B4B3FCB20B96C38D2AA /* LibTorch-Lite */;
+			targetProxy = F39CEBF3EE710488A6CCBE7A31821E05 /* PBXContainerItemProxy */;
+		};
+		84A73AB26B66E85DF72B43A99AC2BC56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LibTorch-Lite";
+			target = E57795E3793A5B4B3FCB20B96C38D2AA /* LibTorch-Lite */;
+			targetProxy = 19FF46DC25438C731582E7E21B342E42 /* PBXContainerItemProxy */;
+		};
+		B751AD68A1A9BB596901DB69B74F136E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PLMLibTorchWrapper;
+			target = 88080F4CE87091260A5105DDC5FF2313 /* PLMLibTorchWrapper */;
+			targetProxy = 6A94980727D3A2ACCB75753FC49204A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		036998424EE27706290318F1D263E8BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A9E4727C13BB7434D1AA457F57C8D1B /* PLMLibTorchWrapper.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/PLMLibTorchWrapper/PLMLibTorchWrapper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = PLMLibTorchWrapper;
+				PRODUCT_NAME = PLMLibTorchWrapper;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F2A76932C53DD883276D51BED19C57A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 585A8717079107B5A83A2355E919E872 /* LibTorch-Lite.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26F8D0578684940BDAE5BF1E2C133D52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36920A0C5D7377CBE464D465ED677AB7 /* LibTorch-Lite.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3673ED43E096FEBAB6A7FF281ABE0E73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C29B59524A16A51D20BBA3221C6DB40D /* PLMLibTorchWrapper.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/PLMLibTorchWrapper/PLMLibTorchWrapper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = PLMLibTorchWrapper;
+				PRODUCT_NAME = PLMLibTorchWrapper;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6CE543EE92920F3BB6FD77CBC425BCDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA5AE1AC0D82244578DB6EABAF2F1026 /* Pods-ios.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DF0786366DE2EA055509AF16E5C97C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 770E5F37951E5E8A9C0F210C72C350B9 /* Pods-ios.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02DC280AA7846CA8111D5F4EB2ADF47D /* Build configuration list for PBXNativeTarget "Pods-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF0786366DE2EA055509AF16E5C97C7E /* Debug */,
+				6CE543EE92920F3BB6FD77CBC425BCDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4214E6946993DF02ED98D89047C64016 /* Debug */,
+				CD85FD90473CFBE797E4264E7BBC70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49B45E12905593CF3F5392688CB741CB /* Build configuration list for PBXAggregateTarget "LibTorch-Lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F2A76932C53DD883276D51BED19C57A /* Debug */,
+				26F8D0578684940BDAE5BF1E2C133D52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AA6EEEDD357FA96A40B953EF88C736B /* Build configuration list for PBXNativeTarget "PLMLibTorchWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036998424EE27706290318F1D263E8BD /* Debug */,
+				3673ED43E096FEBAB6A7FF281ABE0E73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

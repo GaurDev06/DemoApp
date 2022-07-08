@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.soywiz.korlibs.klogger:klogger-iosx64:klib:2.2.0" type="kotlin.native">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.soywiz.korlibs.klogger/klogger-iosx64/2.2.0/14bf7ef923c8cb931b765919e95dfbd4f7ba2bf5/klogger.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.soywiz.korlibs.klogger/klogger-iosx64/2.2.0/c17e1ab7ab659fd311137c8189fa40e27707de50/klogger-iosx64-2.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

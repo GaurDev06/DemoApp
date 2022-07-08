@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.soywiz.korlibs.kds:kds-iosarm64:klib:2.2.0" type="kotlin.native">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.soywiz.korlibs.kds/kds-iosarm64/2.2.0/4cca4c6cbc07da74126ca3057af1348c3c403618/kds.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.soywiz.korlibs.kds/kds-iosarm64/2.2.0/655b5c2e00b2261b67854f8f4b50498c52ff5681/kds-iosarm64-2.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

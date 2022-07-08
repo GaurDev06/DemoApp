@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.soywiz.korlibs.korma:korma:2.2.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.soywiz.korlibs.korma/korma/2.2.1/e1aaee1cd47caa0b6f1fa7b5f95d8790a0a9e14b/korma-metadata-2.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.soywiz.korlibs.korma/korma/2.2.1/e72d1c58e6aee3bb671564af3d2a0ee4e51f5591/korma-2.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

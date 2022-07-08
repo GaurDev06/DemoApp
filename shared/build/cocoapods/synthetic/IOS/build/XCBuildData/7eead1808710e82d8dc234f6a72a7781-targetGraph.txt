@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+LibTorch-Lite in Pods, no dependencies
+PLMLibTorchWrapper in Pods, depends on:
+LibTorch-Lite in Pods (explicit)

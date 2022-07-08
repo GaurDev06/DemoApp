@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.suparnatural.kotlin:fs-iosx64:klib:1.1.0" type="kotlin.native">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.suparnatural.kotlin/fs-iosx64/1.1.0/8c0c22f52cac08874ff73d2f239a1024af7a18bc/fs.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.suparnatural.kotlin/fs-iosx64/1.1.0/1ef90051d5713672142830370a43f22189c78458/fs-iosx64-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

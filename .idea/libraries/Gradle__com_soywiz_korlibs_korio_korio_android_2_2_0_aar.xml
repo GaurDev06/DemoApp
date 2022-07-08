@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.soywiz.korlibs.korio:korio-android:2.2.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c7268478a6801e6a5adbe11fc7ab7def/transformed/korio-debug/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c7268478a6801e6a5adbe11fc7ab7def/transformed/korio-debug/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c7268478a6801e6a5adbe11fc7ab7def/transformed/korio-debug/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.soywiz.korlibs.korio/korio-android/2.2.0/45dfbf16f45270c544a8889df169753f4144eff2/korio-android-2.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.soywiz.korlibs.korio/korio-android/2.2.0/fdb0b24d1e1bf3aebccfc24c67502664ae881b6f/korio-android-2.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

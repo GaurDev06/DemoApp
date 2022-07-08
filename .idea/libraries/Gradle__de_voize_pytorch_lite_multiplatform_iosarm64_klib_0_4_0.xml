@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: de.voize:pytorch-lite-multiplatform-iosarm64:klib:0.4.0" type="kotlin.native">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.voize/pytorch-lite-multiplatform-iosarm64/0.4.0/63a2a97e5f282b9a9ef153330966970ce092472b/pytorch-lite-multiplatform.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.voize/pytorch-lite-multiplatform-iosarm64/0.4.0/ef7ede755a7347db22bc827c1216d41097b9af58/pytorch-lite-multiplatform-iosarm64-0.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

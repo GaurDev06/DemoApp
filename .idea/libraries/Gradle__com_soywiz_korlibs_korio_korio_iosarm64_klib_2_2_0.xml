@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.soywiz.korlibs.korio:korio-iosarm64:klib:2.2.0" type="kotlin.native">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.soywiz.korlibs.korio/korio-iosarm64/2.2.0/d266cd0439ef22c7a7ca7227b9f34b998c2661fd/korio.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.soywiz.korlibs.korio/korio-iosarm64/2.2.0/90ba7c9fbdf555ba93bc1835848426206f2ec16/korio-iosarm64-2.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

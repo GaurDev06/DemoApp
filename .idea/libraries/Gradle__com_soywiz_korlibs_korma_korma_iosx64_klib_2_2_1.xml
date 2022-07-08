@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.soywiz.korlibs.korma:korma-iosx64:klib:2.2.1" type="kotlin.native">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.soywiz.korlibs.korma/korma-iosx64/2.2.1/58610318e1ddaba40267a5a9ee6f567effa290f8/korma.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.soywiz.korlibs.korma/korma-iosx64/2.2.1/8fd1add4ea88e7da7a9fb18a60e767e67ff3cda8/korma-iosx64-2.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

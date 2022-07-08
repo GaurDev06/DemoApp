@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: de.voize:pytorch-lite-multiplatform-android:0.4.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/794bad1435363be7dc426cc11c467faa/transformed/pytorch-lite-multiplatform-release/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/794bad1435363be7dc426cc11c467faa/transformed/pytorch-lite-multiplatform-release/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/794bad1435363be7dc426cc11c467faa/transformed/pytorch-lite-multiplatform-release/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.voize/pytorch-lite-multiplatform-android/0.4.0/b1a251bccffc73306b07d75471e69a5a1babde2/pytorch-lite-multiplatform-android-0.4.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.voize/pytorch-lite-multiplatform-android/0.4.0/5c99d74e8824abee3423dc089aa1229fbf00a0f8/pytorch-lite-multiplatform-android-0.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

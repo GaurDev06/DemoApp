@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.soywiz.korlibs.kmem:kmem-android:2.2.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/bacb233c3e5d4eb3aebe2b4d9ee7ebf3/transformed/kmem-debug/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bacb233c3e5d4eb3aebe2b4d9ee7ebf3/transformed/kmem-debug/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bacb233c3e5d4eb3aebe2b4d9ee7ebf3/transformed/kmem-debug/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.soywiz.korlibs.kmem/kmem-android/2.2.0/b99c91b539302ef8d799a03427dada35680a550e/kmem-android-2.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.soywiz.korlibs.kmem/kmem-android/2.2.0/efaeb995d438ada83eefd0fe27a13b0c81de71d0/kmem-android-2.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: de.voize:pytorch-lite-multiplatform:commonMain:0.4.0" type="kotlin.common">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/shared.PyTorchDemo/commonMain/implementation/de.voize-pytorch-lite-multiplatform/de.voize-pytorch-lite-multiplatform-commonMain.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.voize/pytorch-lite-multiplatform/0.4.0/eeafac9978a6ff4bcef52fd07d29ab5ab3afda4b/pytorch-lite-multiplatform-0.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

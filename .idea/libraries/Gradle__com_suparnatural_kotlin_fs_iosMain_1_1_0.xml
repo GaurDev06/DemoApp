@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: com.suparnatural.kotlin:fs:iosMain:1.1.0" type="kotlin.native">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/shared.PyTorchDemo/commonTest/implementation/com.suparnatural.kotlin-fs/com.suparnatural.kotlin-fs-iosMain.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

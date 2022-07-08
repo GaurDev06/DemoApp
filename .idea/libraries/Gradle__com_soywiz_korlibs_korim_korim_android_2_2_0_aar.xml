@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.soywiz.korlibs.korim:korim-android:2.2.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e48a158bb7f258a16a62ddc17b683058/transformed/korim-debug/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e48a158bb7f258a16a62ddc17b683058/transformed/korim-debug/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e48a158bb7f258a16a62ddc17b683058/transformed/korim-debug/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.soywiz.korlibs.korim/korim-android/2.2.0/51e49b9247a48deb5a655470a6114328d15dc72c/korim-android-2.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.soywiz.korlibs.korim/korim-android/2.2.0/6addb8c622719887bb3977287b0fc62154340518/korim-android-2.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

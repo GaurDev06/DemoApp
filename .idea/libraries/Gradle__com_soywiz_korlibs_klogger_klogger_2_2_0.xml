@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.soywiz.korlibs.klogger:klogger:2.2.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.soywiz.korlibs.klogger/klogger/2.2.0/76d4af645aaad5e5f2ef6dc1a3fa30ae75a2a9a8/klogger-metadata-2.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.soywiz.korlibs.klogger/klogger/2.2.0/718273075adc14087542053c48ffe6800f2f0e06/klogger-2.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

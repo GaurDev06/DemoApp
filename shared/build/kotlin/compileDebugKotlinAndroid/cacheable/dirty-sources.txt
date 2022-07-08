@@ -1,0 +1,3 @@
+/Users/thinksysuser/AndroidStudioProjects/PyTorchDemo/shared/src/commonMain/kotlin/com/example/pytorchdemo/Greeting.kt
+/Users/thinksysuser/AndroidStudioProjects/PyTorchDemo/shared/src/commonMain/kotlin/com/example/pytorchdemo/Platform.kt
+/Users/thinksysuser/AndroidStudioProjects/PyTorchDemo/shared/src/androidMain/kotlin/com/example/pytorchdemo/Platform.kt
