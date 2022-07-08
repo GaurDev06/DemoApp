@@ -1,0 +1,13 @@
+builtins_platform=NATIVE
+package=cocoapods.PLMLibTorchWrapper
+compiler_version=1.7.0
+depends=stdlib
+exportForwardDeclarations=
+interop=true
+native_targets=ios_arm64 ios_x64
+unique_name=de.voize\:shared-cinterop-PLMLibTorchWrapper
+commonizer_target=(ios_arm64, ios_x64)
+abi_version=1.7.0
+commonizer_native_targets=ios_arm64 ios_x64
+metadata_version=1.4.1
+ir_version=1.0.0
